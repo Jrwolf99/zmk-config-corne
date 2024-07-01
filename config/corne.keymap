@@ -8,19 +8,40 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    behaviors {
+        hm: homerow_mods {
+            compatible = “zmk,behavior-hold-tap”;
+            label = “HOMEROW_MODS”;
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            quick_tap_ms = <0>;
+            flavor = “tap-preferred”;
+            bindings = <&kp>, <&kp>;
+        };
+        td: tapdance {
+            compatible = “zmk,behavior-hold-tap”;
+            label = “TAPDANCE”;
+            #binding-cells = <2>;
+            tapping-term-ms = <150>;
+            quick_tap_ms = <0>;
+            flavor = “tap-preferred”;
+            bindings = <&kp>, <&kp>;
+        };
+    };
+
     keymap {
-        compatible = "zmk,keymap";
+        compatible = “zmk,keymap”;
 
         default_layer {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
-            // | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
+            // | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  ’   |
             // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
 &kp TAB    &kp Q  &kp W  &kp F     &kp P  &kp B        &kp J    &kp L  &kp U      &kp COMMA  &kp BACKSPACE  &kp MINUS
-&kp LCTRL  &kp A  &kp R  &kp S     &kp T  &kp G        &kp M    &kp N  &kp E      &kp I      &kp O          &kp O
+&kp LCTRL  &kp A &kp R &hm LALT S &hm LGUI T &kp G        &kp M &hm RGUI N &hm RALT E &kp I  &kp O          &kp O
 &kp LSHFT  &kp Z  &kp X  &kp C     &kp D  &kp V        &kp K    &kp H  &kp SLASH  &kp DOT    &kp Y          &kp ESC
                          &kp LGUI  &to 0  &kp SPACE    &kp RET  &to 1  &kp RALT
             >;
@@ -30,7 +51,7 @@
             // -----------------------------------------------------------------------------------------
             // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
             // | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
-            // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
+            // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | ”|” |  ~   |
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
