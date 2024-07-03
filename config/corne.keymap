@@ -25,9 +25,9 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp ESCAPE        &kp Q  &kp W  &kp F     &kp P      &kp B             &kp J    &kp L  &kp U      &kp COMMA  &kp MINUS  &kp BACKSPACE
-&kp TAB           &kp A  &kp R  &kp S     &kp T      &kp G             &kp M    &kp N  &kp E      &kp I      &kp O      &trans
-&kp LEFT_CONTROL  &kp Z  &kp X  &kp C     &kp D      &kp V             &kp K    &kp H  &kp SLASH  &kp DOT    &kp Y      &trans
+&kp ESCAPE        &kp Q  &kp W  &kp F     &kp P                 &kp B             &kp J    &kp L  &kp U      &kp COMMA  &kp MINUS  &kp BACKSPACE
+&kp TAB           &kp A  &kp R  &kp S     &kp T                 &kp G             &kp M    &kp N  &kp E      &kp I      &kp O      &trans
+&kp LEFT_CONTROL  &kp Z  &kp X  &kp C     &kp D                 &kp V             &kp K    &kp H  &kp SLASH  &kp DOT    &kp Y      &trans
                                 &kp LGUI  &mt LC(LS(LALT)) SPC  &kp LEFT_SHIFT    &kp RET  &to 1  &kp RALT
             >;
         };
@@ -42,7 +42,7 @@
             bindings = <
 &kp ESCAPE      &trans  &trans         &kp AT     &kp DLLR      &kp PRCNT            &kp CARET         &kp LESS_THAN         &kp GREATER_THAN       &kp SEMICOLON      &trans  &kp BACKSPACE
 &kp TAB         &trans  &kp AMPERSAND  &kp HASH   &kp EXCL      &kp APOSTROPHE       &kp BACKSLASH     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE           &trans  &trans
-&kp LEFT_SHIFT  &trans  &kp ASTRK      &kp EQUAL  &kp QUESTION  &kp DOUBLE_QUOTES    &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &trans  &trans
+&kp LEFT_SHIFT  &trans  &kp ASTRK      &kp EQUAL  &kp QUESTION  &kp DOUBLE_QUOTES    &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &trans  &to 3
                                        &kp LGUI   &to 0         &kp SPACE            &kp RET           &to 2                 &kp RALT
             >;
         };
