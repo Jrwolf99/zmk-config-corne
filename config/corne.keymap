@@ -67,10 +67,10 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans            &trans  &trans            &kp LG(LBKT)          &kp LC(LS(TAB))  &kp RC(TAB)   &kp LG(RBKT)  &trans  &trans
-&trans  &trans  &trans  &trans            &trans  &trans            &kp LEFT_ARROW        &kp DOWN         &kp UP_ARROW  &kp RIGHT     &trans  &trans
-&trans  &trans  &trans  &trans            &trans  &trans            &trans                &trans           &trans        &trans        &trans  &trans
-                        &kp LEFT_COMMAND  &to 0   &kp LEFT_SHIFT    &mt LEFT_CONTROL RET  &to 2            &kp LEFT_ALT
+&trans  &trans  &trans  &trans            &trans        &trans            &kp LG(LBKT)          &kp LC(LS(TAB))  &kp RC(TAB)   &kp LG(RBKT)  &trans  &trans
+&trans  &trans  &trans  &kp LG(MINUS)     &kp LG(PLUS)  &trans            &kp LEFT_ARROW        &kp DOWN         &kp UP_ARROW  &kp RIGHT     &trans  &trans
+&trans  &trans  &trans  &trans            &trans        &trans            &trans                &trans           &trans        &trans        &trans  &trans
+                        &kp LEFT_COMMAND  &to 0         &kp LEFT_SHIFT    &mt LEFT_CONTROL RET  &to 2            &kp LEFT_ALT
             >;
         };
 
