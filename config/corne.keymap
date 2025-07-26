@@ -58,7 +58,7 @@
 
         lower_layer {
             bindings = <
-&kp ESCAPE  &kp LS(LG(LC(N4)))  &kp C_PP  &kp C_PREV            &kp C_NEXT            &kp UNDERSCORE    &kp MINUS             &kp N7        &kp N8        &kp N9        &kp BACKSPACE  &trans
+&kp ESCAPE  &kp LS(LG(LC(N4)))  &kp C_PP  &kp C_PREV            &kp C_NEXT            &kp UNDERSCORE    &kp MINUS             &kp N7        &kp N8        &kp N9        &kp BACKSPACE  &kp COMMA
 &kp TAB     &trans              &trans    &kp K_VOL_DN          &kp K_VOL_UP          &kp EQUAL         &kp PLUS              &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTRK      &kp SLASH
 &trans      &trans              &trans    &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp AMPERSAND     &kp NUMBER_0          &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD     &to 3
                                           &kp LGUI              &to 0                 &kp LEFT_SHIFT    &mt LEFT_CONTROL RET  &to 2         &kp RALT
