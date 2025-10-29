@@ -40,7 +40,7 @@
 
         default_layer {
             bindings = <
-&kp ESCAPE    &kp Q  &kp W  &kp F       &kp P                 &kp B             &kp J                 &kp L       &kp U                 &td MINUS COMMA  &kp BACKSPACE  &td COLON SEMI
+&kp ESCAPE    &kp Q  &kp W  &kp F       &kp P                 &td GLOBE B       &kp J                 &kp L       &kp U                 &td MINUS COMMA  &kp BACKSPACE  &td COLON SEMI
 &kp TAB       &kp A  &kp R  &hm LALT S  &hm LGUI T            &kp G             &kp M                 &hm RGUI N  &hm RALT E            &kp I            &kp O          &kp SINGLE_QUOTE
 &kp CAPSLOCK  &kp Z  &kp X  &kp C       &kp D                 &kp V             &kp K                 &kp H       &td UNDERSCORE SLASH  &td EXCL DOT     &kp Y          &kp DOUBLE_QUOTES
                             &kp LGUI    &mt LC(LS(LALT)) SPC  &kp LEFT_SHIFT    &mt LEFT_CONTROL RET  &to 1       &kp RALT
