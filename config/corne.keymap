@@ -58,9 +58,9 @@
 
         lower_layer {
             bindings = <
-&kp ESCAPE  &trans  &trans  &trans  &trans  &kp UNDERSCORE    &kp MINUS             &td LESS_THAN N7               &td GREATER_THAN N8             &kp N9                      &kp BACKSPACE  &kp COMMA
-&kp TAB     &trans  &trans  &trans  &trans  &kp EQUAL         &kp PLUS              &td LEFT_BRACE NUMBER_4        &td RIGHT_BRACE N5              &td PIPE NUMBER_6           &kp ASTRK      &kp SLASH
-&trans      &trans  &trans  &trans  &trans  &kp AMPERSAND     &td LEFT_BRACKET N0   &td LEFT_PARENTHESIS NUMBER_1  &td RIGHT_PARENTHESIS NUMBER_2  &td RIGHT_BRACKET NUMBER_3  &kp PERIOD     &trans
+&kp ESCAPE  &trans     &kp LA(NUMBER_8)  &kp AT     &kp DLLR      &kp UNDERSCORE    &kp MINUS             &td LESS_THAN N7               &td GREATER_THAN N8             &kp N9                      &kp BACKSPACE  &kp COMMA
+&kp TAB     &trans     &kp AMPERSAND     &kp HASH   &kp EXCL      &kp EQUAL         &kp PLUS              &td LEFT_BRACE NUMBER_4        &td RIGHT_BRACE N5              &td PIPE NUMBER_6           &kp ASTRK      &kp SLASH
+&trans      &kp GRAVE  &kp ASTRK         &kp EQUAL  &kp QUESTION  &kp AMPERSAND     &td LEFT_BRACKET N0   &td LEFT_PARENTHESIS NUMBER_1  &td RIGHT_PARENTHESIS NUMBER_2  &td RIGHT_BRACKET NUMBER_3  &kp PERIOD     &to 3
                             &to 3   &to 0   &kp LEFT_SHIFT    &mt LEFT_CONTROL RET  &to 1                          &to 2
             >;
         };
