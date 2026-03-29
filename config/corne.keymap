@@ -40,28 +40,28 @@
 
         letters_layer {
             bindings = <
-&kp ESCAPE    &kp Q  &td LA(W) W  &td LA(F) F  &td LA(P) P           &td LA(B) B       &kp J                 &kp L       &kp U                 &td MINUS COMMA  &kp BACKSPACE  &td COLON SEMI
-&kp TAB       &kp A  &kp R        &hm LALT S   &hm LGUI T            &kp G             &kp M                 &hm RGUI N  &hm RALT E            &kp I            &kp O          &kp SINGLE_QUOTE
-&kp CAPSLOCK  &kp Z  &kp X        &kp C        &kp D                 &kp V             &kp K                 &kp H       &td UNDERSCORE SLASH  &td EXCL DOT     &kp Y          &kp DOUBLE_QUOTES
-                    &mt LC(LS(LALT)) SPC     &to 2          &kp LEFT_SHIFT    &mt LEFT_CONTROL RET  &to 1       &trans
+&kp ESCAPE    &kp Q  &td LA(W) W  &td LA(F) F           &td LA(P) P  &td LA(B) B       &kp J                 &kp L       &kp U                 &td MINUS COMMA  &kp BACKSPACE  &td COLON SEMI
+&kp TAB       &kp A  &kp R        &hm LALT S            &hm LGUI T   &kp G             &kp M                 &hm RGUI N  &hm RALT E            &kp I            &kp O          &kp SINGLE_QUOTE
+&kp CAPSLOCK  &kp Z  &kp X        &kp C                 &kp D        &kp V             &kp K                 &kp H       &td UNDERSCORE SLASH  &td EXCL DOT     &kp Y          &kp DOUBLE_QUOTES
+                                  &mt LC(LS(LALT)) SPC  &kp SPACE    &kp LEFT_SHIFT    &mt LEFT_CONTROL RET  &to 1       &to 2
             >;
         };
 
         num_and_sym_layer {
             bindings = <
 &kp ESCAPE  &trans     &kp PERCENT    &kp AT     &kp DLLR      &kp UNDERSCORE    &td CARET MINUS       &td LESS_THAN N7               &td GREATER_THAN N8             &kp N9                      &kp BACKSPACE  &kp COMMA
-&kp TAB     &trans     &kp AMPERSAND  &kp HASH   &kp EXCL      &kp EQUAL         &td BACKSLASH PLUS    &td LEFT_BRACE NUMBER_4        &td RIGHT_BRACE N5              &td PIPE NUMBER_6           &kp ASTRK      &kp SLASH
-&trans      &kp GRAVE  &kp ASTRK      &kp EQUAL  &kp QUESTION  &kp AMPERSAND     &td LEFT_BRACKET N0   &td LEFT_PARENTHESIS NUMBER_1  &td RIGHT_PARENTHESIS NUMBER_2  &td RIGHT_BRACKET NUMBER_3  &kp PERIOD     &trans
-                                      &to 2      &to 0         &kp LEFT_SHIFT    &mt LEFT_CONTROL RET  &to 1                          &trans
+&kp TAB     &trans     &kp AMPERSAND  &kp HASH   &kp EXCL      &kp EQUAL         &td BACKSLASH PLUS    &td LEFT_BRACE NUMBER_4        &td RIGHT_BRACE N5              &td PIPE NUMBER_6           &kp ASTRK      &kp SQT
+&kp CAPS    &kp GRAVE  &kp ASTRK      &kp EQUAL  &kp QUESTION  &kp AMPERSAND     &td LEFT_BRACKET N0   &td LEFT_PARENTHESIS NUMBER_1  &td RIGHT_PARENTHESIS NUMBER_2  &td RIGHT_BRACKET NUMBER_3  &kp PERIOD     &kp DOUBLE_QUOTES
+                                      &to 0      &kp SPACE     &kp LEFT_SHIFT    &mt LEFT_CONTROL RET  &to 1                          &to 2
             >;
         };
 
         control_layer {
             bindings = <
-&trans  &kp LS(LC(LG(NUMBER_4)))  &kp C_PLAY_PAUSE  &kp C_PREV         &kp C_NEXT       &trans            &kp LG(LBKT)          &kp LC(LS(TAB))  &kp RC(TAB)   &kp LG(RBKT)  &trans  &trans
-&trans  &kp LA(LG(MINUS))         &kp LA(LG(PLUS))  &kp K_VOLUME_DOWN  &kp K_VOLUME_UP  &trans            &kp LEFT_ARROW        &kp DOWN         &kp UP_ARROW  &kp RIGHT     &trans  &trans
+&trans  &kp LS(LC(LG(NUMBER_4)))  &kp C_PLAY_PAUSE  &kp C_PREV         &kp C_NEXT       &trans            &kp LG(LBKT)          &kp LC(LS(TAB))    &kp RC(TAB)   &kp LG(RBKT)  &trans  &trans
+&trans  &kp LA(LG(MINUS))         &kp LA(LG(PLUS))  &kp K_VOLUME_DOWN  &kp K_VOLUME_UP  &trans            &kp LEFT_ARROW        &kp DOWN           &kp UP_ARROW  &kp RIGHT     &trans  &trans
 &trans  &trans                    &trans            &kp C_BRI_DN       &kp C_BRI_UP     &trans            &kp GLOBE             &kp LC(LG(SPACE))  &trans        &trans        &trans  &trans
-                                                    &to 2              &to 0            &kp LEFT_SHIFT    &mt LEFT_CONTROL RET  &to 1            &trans
+                                                    &to 0              &kp SPACE        &kp LEFT_SHIFT    &mt LEFT_CONTROL RET  &to 1              &to 2
             >;
         };
     };
