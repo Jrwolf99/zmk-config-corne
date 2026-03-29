@@ -49,19 +49,19 @@
 
         raise_layer {
             bindings = <
-&trans      &trans     &trans            &trans     &trans        &kp PRCNT            &kp CARET             &kp LS(LESS_THAN)     &kp LS(GREATER_THAN)   &kp LC(LG(SPACE))  &trans         &trans
-&trans      &trans     &trans            &trans     &trans        &kp APOSTROPHE       &kp BACKSLASH         &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE           &trans         &trans
-&trans      &trans     &trans            &trans     &trans        &kp DOUBLE_QUOTES    &kp LEFT_BRACKET      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &trans         &trans
-                                         &to 3      &to 0         &kp LEFT_SHIFT       &mt LEFT_CONTROL RET  &to 1                 &to 2
+&trans  &trans  &trans  &trans  &trans  &trans            &trans                &trans  &trans  &kp LC(LG(SPACE))  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans            &trans                &trans  &trans  &trans             &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans            &trans                &trans  &trans  &trans             &trans  &trans
+                        &to 3   &to 0   &kp LEFT_SHIFT    &mt LEFT_CONTROL RET  &to 1   &to 2
             >;
         };
 
         lower_layer {
             bindings = <
-&kp ESCAPE  &trans     &kp LA(NUMBER_8)  &kp AT     &kp DLLR      &kp UNDERSCORE    &kp MINUS             &td LESS_THAN N7               &td GREATER_THAN N8             &kp N9                      &kp BACKSPACE  &kp COMMA
-&kp TAB     &trans     &kp AMPERSAND     &kp HASH   &kp EXCL      &kp EQUAL         &kp PLUS              &td LEFT_BRACE NUMBER_4        &td RIGHT_BRACE N5              &td PIPE NUMBER_6           &kp ASTRK      &kp SLASH
-&trans      &kp GRAVE  &kp ASTRK         &kp EQUAL  &kp QUESTION  &kp AMPERSAND     &td LEFT_BRACKET N0   &td LEFT_PARENTHESIS NUMBER_1  &td RIGHT_PARENTHESIS NUMBER_2  &td RIGHT_BRACKET NUMBER_3  &kp PERIOD     &to 3
-                            &to 3   &to 0   &kp LEFT_SHIFT    &mt LEFT_CONTROL RET  &to 1                          &to 2
+&kp ESCAPE  &trans     &kp PERCENT    &kp AT     &kp DLLR      &kp UNDERSCORE    &td CARET MINUS       &td LESS_THAN N7               &td GREATER_THAN N8             &kp N9                      &kp BACKSPACE  &kp COMMA
+&kp TAB     &trans     &kp AMPERSAND  &kp HASH   &kp EXCL      &kp EQUAL         &td BACKSLASH PLUS    &td LEFT_BRACE NUMBER_4        &td RIGHT_BRACE N5              &td PIPE NUMBER_6           &kp ASTRK      &kp SLASH
+&trans      &kp GRAVE  &kp ASTRK      &kp EQUAL  &kp QUESTION  &kp AMPERSAND     &td LEFT_BRACKET N0   &td LEFT_PARENTHESIS NUMBER_1  &td RIGHT_PARENTHESIS NUMBER_2  &td RIGHT_BRACKET NUMBER_3  &kp PERIOD     &trans
+                                      &to 3      &to 0         &kp LEFT_SHIFT    &mt LEFT_CONTROL RET  &to 1                          &to 2
             >;
         };
 
