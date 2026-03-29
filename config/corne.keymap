@@ -41,8 +41,8 @@
         letters_layer {
             bindings = <
 &kp ESCAPE    &kp Q       &td LA(W) W  &td LA(F) F           &td LA(P) P  &td LA(B) B       &kp J                 &kp L       &kp U                 &td MINUS COMMA  &kp BACKSPACE  &td COLON SEMI
-&kp TAB       &td AT A    &kp R        &hm LALT S            &hm LGUI T   &kp G             &kp M                 &hm RGUI N  &hm RALT E            &kp I            &kp O          &td QUESTION SQT
-&kp CAPSLOCK  &td AMPS Z  &kp X        &kp C                 &kp D        &kp V             &kp K                 &kp H       &td UNDERSCORE SLASH  &td EXCL DOT     &kp Y          &td ASTRK DOUBLE_QUOTES
+&kp TAB       &td AT A    &td HASH R   &hm LALT S            &hm LGUI T   &kp G             &kp M                 &hm RGUI N  &hm RALT E            &kp I            &kp O          &td QUESTION SQT
+&kp CAPSLOCK  &td AMPS Z  &td DOLLAR X  &td PERCENT C        &td CARET D  &kp V             &kp K                 &kp H       &td UNDERSCORE SLASH  &td EXCL DOT     &kp Y          &td ASTRK DOUBLE_QUOTES
                                        &mt LC(LS(LALT)) SPC  &kp SPACE    &kp LEFT_SHIFT    &mt LEFT_CONTROL RET  &to 1       &to 2
             >;
         };
@@ -66,3 +66,4 @@
         };
     };
 };
+
