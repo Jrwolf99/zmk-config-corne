@@ -50,7 +50,7 @@
         num_and_sym_layer {
             bindings = <
 &kp ESCAPE &trans &kp PERCENT   &kp AT    &kp DLLR &kp UNDERSCORE      &td LESS_THAN N7              &td GREATER_THAN N8            &td MINUS N9               &td MINUS COMMA    &kp BACKSPACE     &td COLON SEMICOLON
-&kp TAB    &trans &kp AMPERSAND &kp HASH  &kp EXCL &kp EQUAL           &td LEFT_BRACE NUMBER_4       &td RIGHT_BRACE N5             &td PIPE NUMBER_6          &td BACKSLASH PLUS &kp ASTRK         &td QUESTION SQT
+&kp TAB    &trans &kp AMPERSAND &kp HASH  &kp EXCL &kp EQUAL           &td LEFT_BRACE NUMBER_4       &td RIGHT_BRACE N5             &td PIPE NUMBER_6          &td PLUS BACKSLASH &kp ASTRK         &td QUESTION SQT
 &kp CAPS   &trans &kp TILDE     &kp GRAVE &trans   &td LEFT_BRACKET N0 &td LEFT_PARENTHESIS NUMBER_1 &td RIGHT_PARENTHESIS NUMBER_2 &td RIGHT_BRACKET NUMBER_3 &td EXCL DOT &trans &kp DOUBLE_QUOTES
                                    &to 0 &kp SPACE &kp LEFT_SHIFT &mt LEFT_CONTROL RET &to 1 &to 2
             >;
