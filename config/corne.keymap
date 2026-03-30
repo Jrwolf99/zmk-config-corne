@@ -40,19 +40,19 @@
 
         letters_layer {
             bindings = <
-&kp ESCAPE    &td PERCENT Q  &td LA(W) W   &td LA(F) F           &td LA(P) P  &td LESS_THAN B           &td GREATER_THAN J        &kp L       &td PLUS U            &td MINUS COMMA  &kp BACKSPACE  &td COLON SEMI
-&kp TAB       &td AT A       &td HASH R    &hm LALT S            &hm LGUI T   &td LEFT_BRACE G          &td RIGHT_BRACE M         &hm RGUI N  &hm RALT E            &td BACKSLASH I  &td PIPE O     &td QUESTION SQT
-&kp CAPSLOCK  &td AMPS Z     &td DOLLAR X  &td CARET C           &td PLUS D   &td LEFT_PARENTHESIS V    &td RIGHT_PARENTHESIS K   &kp H       &td UNDERSCORE SLASH  &td EXCL DOT     &td EQUAL Y    &td ASTRK DOUBLE_QUOTES
-                                           &mt LC(LS(LALT)) SPC  &kp SPACE    &kp LEFT_SHIFT    &mt LEFT_CONTROL RET  &to 1       &to 2
+&kp ESCAPE    &td PERCENT Q  &td LA(W) W   &td LA(F) F           &td LA(P) P  &td LESS_THAN B           &td GREATER_THAN J       &td LEFT_BRACKET L  &td RIGHT_BRACKET U   &td MINUS COMMA  &kp BACKSPACE  &td COLON SEMI
+&kp TAB       &td AT A       &td HASH R    &hm LALT S            &hm LGUI T   &td LEFT_BRACE G          &td RIGHT_BRACE M        &hm RGUI N          &hm RALT E            &td BACKSLASH I  &td PIPE O     &td QUESTION SQT
+&kp CAPSLOCK  &td AMPS Z     &td DOLLAR X  &td CARET C           &td PLUS D   &td LEFT_PARENTHESIS V    &td RIGHT_PARENTHESIS K  &kp H               &td UNDERSCORE SLASH  &td EXCL DOT     &td EQUAL Y    &td ASTRK DOUBLE_QUOTES
+                                           &mt LC(LS(LALT)) SPC  &kp SPACE    &kp LEFT_SHIFT            &mt LEFT_CONTROL RET     &to 1               &to 2
             >;
         };
 
         num_and_sym_layer {
             bindings = <
-&kp ESCAPE  &td PERCENT Q  &trans        &trans                         &td TILDE GRAVE                  &td LESS_THAN N7           &td GREATER_THAN N8             &kp N9  &td PLUS U            &td MINUS COMMA  &kp BACKSPACE  &td COLON SEMICOLON
-&kp TAB     &td AT A       &td HASH R    &td LEFT_BRACKET LEFT_BRACKET  &td RIGHT_BRACKET RIGHT_BRACKET  &td LEFT_BRACE N4          &td RIGHT_BRACE N5              &kp N6  &trans                &td BACKSLASH I  &td PIPE O     &td QUESTION SQT
-&kp CAPS    &td AMPS Z     &td DOLLAR X  &td LCTRL C                    &td PLUS D                       &td LEFT_PARENTHESIS N1    &td RIGHT_PARENTHESIS NUMBER_2  &kp N3  &td UNDERSCORE SLASH  &td EXCL DOT     &td EQUAL Y    &td ASTRK DOUBLE_QUOTES
-                                         &to 0                          &kp SPACE                        &kp LEFT_SHIFT             &mt LEFT_CONTROL RET            &to 1   &to 2
+&kp ESCAPE  &td PERCENT Q  &trans        &trans       &td TILDE GRAVE  &td LESS_THAN N7           &td GREATER_THAN N8             &td LEFT_BRACKET N9  &td RIGHT_BRACKET U   &td MINUS COMMA  &kp BACKSPACE  &td COLON SEMICOLON
+&kp TAB     &td AT A       &td HASH R    &trans       &trans           &td LEFT_BRACE N4          &td RIGHT_BRACE N5              &kp N6               &trans                &td BACKSLASH I  &td PIPE O     &td QUESTION SQT
+&kp CAPS    &td AMPS Z     &td DOLLAR X  &td LCTRL C  &td PLUS D       &td LEFT_PARENTHESIS N1    &td RIGHT_PARENTHESIS NUMBER_2  &kp N3               &td UNDERSCORE SLASH  &td EXCL DOT     &td EQUAL Y    &td ASTRK DOUBLE_QUOTES
+                                         &to 0        &kp SPACE        &kp LEFT_SHIFT             &mt LEFT_CONTROL RET            &to 1                &to 2
             >;
         };
 
