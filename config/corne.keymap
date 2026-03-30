@@ -76,7 +76,7 @@
             bindings = <
 &kp ESCAPE    &td_sym N5 Q  &td LA(W) W   &td LA(F) F       &td LA(P) P             &td_sym COMMA B           &td_sym DOT J            &td LEFT_BRACKET L  &td RIGHT_BRACKET U  &td MINUS COMMA  &kp BACKSPACE        &td_sym SEMI SEMI
 &kp TAB       &td_sym N2 A  &td_sym N3 R  &hm LALT S        &hm LGUI T              &td_sym LEFT_BRACKET G    &td_sym RIGHT_BRACKET M  &hm RGUI N          &hm RALT E           &td BACKSLASH I  &td_sym BACKSLASH O  &td_sym SLASH SQT
-&kp CAPSLOCK  &td_sym N7 Z  &td_sym N4 X  &td_sym N6 C      &td_sym EQUAL D         &td_sym N9 V              &td_sym N0 K             &kp H               &td_sym MINUS SLASH  &td_sym N1 DOT   &td EQUAL Y          &td_both N8 SQT
+&kp CAPSLOCK  &td_sym N7 Z  &td_sym N4 X  &td_sym N6 C      &td_sym EQUAL D         &td_sym N9 V              &td_sym N0 K             &td_sym BACKSLASH H  &td_sym MINUS SLASH  &td_sym N1 DOT   &td EQUAL Y          &td_both N8 SQT
                                           &kp LEFT_CONTROL  &mt LC(LS(LALT)) SPACE  &kp LEFT_SHIFT            &mt LEFT_CONTROL RET     &to 1               &to 2
             >;
         };
@@ -85,7 +85,7 @@
             bindings = <
 &kp ESCAPE  &td_sym N5 Q  &trans        &trans            &td_sym GRAVE GRAVE  &td_sym COMMA N7           &td_sym DOT N8            &td LEFT_BRACKET N9  &td RIGHT_BRACKET U  &td MINUS COMMA  &kp BACKSPACE        &td_sym SEMI SEMI
 &kp TAB     &td_sym N2 A  &td_sym N3 R  &trans            &trans               &td_sym LEFT_BRACKET N4    &td_sym RIGHT_BRACKET N5  &kp N6               &trans               &td BACKSLASH I  &td_sym BACKSLASH O  &td_sym SLASH SQT
-&kp CAPS    &td_sym N7 Z  &td_sym N4 X  &td LCTRL C       &td_sym EQUAL N0     &td_sym N9 N1              &td_sym N0 N2             &kp N3               &td_sym MINUS SLASH  &td_sym N1 DOT   &td EQUAL Y          &td_both N8 SQT
+&kp CAPS    &td_sym N7 Z  &td_sym N4 X  &td LCTRL C       &td_sym EQUAL N0     &td_sym N9 N1              &td_sym N0 N2             &td_sym BACKSLASH N3 &td_sym MINUS SLASH  &td_sym N1 DOT   &td EQUAL Y          &td_both N8 SQT
                                         &kp LEFT_CONTROL  &to 0                &kp LEFT_SHIFT             &mt LEFT_CONTROL RET      &to 1                &to 2
             >;
         };
